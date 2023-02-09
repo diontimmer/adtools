@@ -24,3 +24,19 @@ positional arguments:
 options:
   --raw           Do not normalize the audio files
 ```
+
+ # dir_dl.py - Download all audio files from an open HTTP directory<br>
+ ```
+usage: dir_dl.py [-h] [--max-workers MAX_WORKERS] [--non_recursive] url [output_dir]
+
+Download all audio files from an open HTTP directory.
+
+positional arguments:
+  url                   URL of the directory to download from
+  output_dir            Output directory to save the audio files to
+
+options:
+  -h, --help            show this help message and exit  
+  --max-workers         Maximum number of concurrent workers
+  --non_recursive       Download files from only the current directory
+  ```

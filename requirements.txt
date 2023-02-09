@@ -1,3 +1,5 @@
 pydub
 glob
 sf2_loader
+bs4
+requests
