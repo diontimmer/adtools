@@ -29,8 +29,6 @@ options:
  ```
 usage: dir_dl.py [-h] [--max-workers MAX_WORKERS] [--non_recursive] url [output_dir]
 
-Download all audio files from an open HTTP directory.
-
 positional arguments:
   url                   URL of the directory to download from
   output_dir            Output directory to save the audio files to
