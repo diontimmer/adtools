@@ -4,7 +4,7 @@
  # splice.py - Splice up audio files to set chunk length<br>
  
  ```
-usage: splice.py [-h] dir_path chunk_length_samples sample_rate output_folder
+splice.py [-h] dir_path chunk_length_samples sample_rate output_folder
 
 positional arguments:
   dir_path              Path to the directory containing the audio files
