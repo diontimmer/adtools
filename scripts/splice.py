@@ -43,6 +43,7 @@ def cut_audio_files(dir_path, chunk_length_samples, sample_rate, output_folder, 
 
             # Check if the RMS value is above the minimum volume threshold
             if rms < 10**(min_volume_db/20):
+                print(f"Skipping chunk {i} of {file_name} because its RMS value ({rms}) is below the minimum volume threshold ({min_volume_db} dBFS).")
                 continue
 
             # Save the chunk as a separate file
